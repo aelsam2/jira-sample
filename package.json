@@ -1,0 +1,19 @@
+{
+  "name": "cypress_auto",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "cypress": "^6.1.0",
+    "node-forge": "^0.10.0"
+  },
+  "devDependencies": {
+    "cypress-file-upload": "^5.0.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "execTest": "cypress run --spec cypress/integration/RegressionSuit/FileUpload.spec.js --env dataFile=QaEnvTwo --config baseUrl=https://dev-pwcrrs.perfomatix.online/ "
+  },
+  "author": "",
+  "license": "ISC"
+}

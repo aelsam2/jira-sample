@@ -1,0 +1,6 @@
+{
+    "baseUrl":"https://talentsoft.netlify.app/#/ ",
+    "env": {
+        "dataFile": "QaEnvTwo"
+      }
+}
